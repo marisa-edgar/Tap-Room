@@ -21,6 +21,10 @@ function Form(props){
                 type='text'
                 name='flavor'
                 placeholder ='Flavor'/>
+            <input
+                type='text'
+                name='alcoholContent'
+                placeholder='alcoholContent'/>
             <button type='submit'>{props.buttonText}</button>
             </form>
             </React.Fragment>
