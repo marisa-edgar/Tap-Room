@@ -38,6 +38,7 @@ License under [MIT License](LICENSE)
 Copyright (c) _2022_ _Marisa Edgar_
 
 
+ ![A diagram of a tap room components](./src/img/TapRoom.png "Text to show on mouseover")
 
 
 
