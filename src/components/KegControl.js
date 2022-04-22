@@ -1,5 +1,3 @@
-
-   
 import React from 'react';
 import NewKegForm from './NewKegForm';
 import KegList from './KegList';
@@ -16,6 +14,7 @@ class KegControl extends React.Component {
         selectedKeg: null,
         editing: false
         };
+        this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick = () => {
@@ -41,7 +40,7 @@ class KegControl extends React.Component {
     }
 
     handleChangingSelectedKeg = (id) => {
-        const selectedKeg = this.state.mainKegList.filter(Keg => Keg.id === id)[0];
+        const selectedKeg = this.state.mainKegList.filter(keg => keg.id === id)[0];
         this.setState({selectedKeg: selectedKeg});
     }
 
