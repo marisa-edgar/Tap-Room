@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function Form(props){
+function ReusableForm(props){
     return(
         <React.Fragment>
             <form onSubmit = {props.formSubmissionHandler}>
@@ -10,7 +10,7 @@ function Form(props){
                 name='name'
                 placeholder='Keg Name' />
             <input
-                type='number'
+                type='text'
                 name='price'
                 placeholder = 'Price'/>
             <input
@@ -31,9 +31,9 @@ function Form(props){
         );
 }
 
-Form.propTypes = {
+ReusableForm.propTypes = {
     formSubmissionHandler: PropTypes.func,
     buttonText: PropTypes.string
 };
 
-export default Form;
+export default ReusableForm;
