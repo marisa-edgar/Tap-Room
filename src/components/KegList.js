@@ -9,7 +9,8 @@ function KegList(props){
             {props.kegList.map((keg)=>
                 <Keg
                 whenKegClicked = {props.onKegSelection}
-                name = {keg.name}
+                name = {keg.name} 
+                brewery = {keg.brewery}
                 id={keg.id}
                 key={keg.id}/>
             )}

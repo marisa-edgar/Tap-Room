@@ -19,7 +19,7 @@ function KegDetail(props){
         <p style={costCheck(keg.price)}>$ {keg.price}</p>
         <h5>{keg.brewery}</h5>
         <h3>{keg.flavor}</h3>
-        <h3>{keg.brewery} - {keg.alcoholContent} %</h3>
+        <h3>{keg.brewery}  {keg.alcoholContent} %</h3>
         <p><em>Pints Left: {keg.pints}</em></p>
         <button onClick={ props.onClickingEdit }>Update Keg Info</button>
         <button onClick={ props.onClickingDecrement }>Decrement Pint</button>

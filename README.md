@@ -1,38 +1,37 @@
-# _{Application Name}_
+# _Tap Room_
 
-#### By _**{List of contributors}**_
+#### By _**Marisa Edgar**_
 
-#### _{Brief description of application}_
+#### _An inventory management application for a tap room, a project for epicodus using react fundamentals_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _React_
+* _JavaScript_
+
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_A project to practice state management using a hypothetical tap rooms inventory_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _In your terminal run `git clone https://github.com/marisa-edgar/Tap-Room.git`_
+* _Open in a code editor like VScode and run `npm install` in the projects root directory_
+* _Run `npm start` it will open a live server at `http://localhost:3000`_
+* _To end the program, type CMD+C on MacOs or Windows+C on PC in your terminal_
+
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
+
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_For Questions or concerns email me at marisaedgar1212@gmail.com_
 
 License under [MIT License](LICENSE) 
 Copyright (c) _2022_ _Marisa Edgar_
