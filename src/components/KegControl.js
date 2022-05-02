@@ -69,16 +69,20 @@ class KegControl extends React.Component {
 
     handleDecrementingPints = () => {
         const pickedKeg = this.state.selectedKeg;
-        const pintsToEdit = {
-            name: pickedKeg.name,
-            brewery: pickedKeg.brewery,
-            price: pickedKeg.price,
-            alcoholContent: pickedKeg.alcoholContent,
-            pints: pickedKeg.pints -=1,
-            id: pickedKeg.id,
-            key: pickedKeg.id
+        if (this.state.selectedKeg.pints !== 0){
+            const pintsToEdit = {
+                name: pickedKeg.name,
+                brand: pickedKeg.brand,
+                price: pickedKeg.price,
+                alcoholContent: pickedKeg.alcoholContent,
+                pints: pickedKeg.pints -=1,
+                id: pickedKeg.id,
+                key: pickedKeg.id
+            }
+            this.handleChangingSelectedKeg(pintsToEdit.id)   
+        } else {
+            this.handleChangingSelectedKeg(this.state.selectedKeg.id)
         }
-        this.handleChangingSelectedKeg(pintsToEdit.id)
     }
 
     render(){
